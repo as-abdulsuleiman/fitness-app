@@ -36,6 +36,7 @@ struct ActivityCard: View {
                     .bold()
                     .padding()
             }
+            
             .padding()
         }
     }
