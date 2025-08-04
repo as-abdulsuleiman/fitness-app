@@ -24,7 +24,9 @@ struct PregressCircleView: View {
                 .rotationEffect(.degrees(-90))
                 .shadow(radius: 5)
         }
+        
         .padding()
+        
         }
 }
 
