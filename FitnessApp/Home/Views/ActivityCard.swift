@@ -24,13 +24,12 @@ struct ActivityCard: View {
                         Text(activity.subtitle)
                             .font(.caption)
                     }
-                    
+
                     Spacer()
                     
                     Image(systemName: activity.image)
                         .foregroundColor(activity.tintColor)
                 }
-                
                 Text(activity.amount)
                     .font(.title)
                     .bold()
