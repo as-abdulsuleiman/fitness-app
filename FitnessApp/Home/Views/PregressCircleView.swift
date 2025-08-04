@@ -13,7 +13,6 @@ struct PregressCircleView: View {
     var color: Color
     private let width: CGFloat = 20
     
-    
     var body: some View {
         ZStack{
             Circle()
