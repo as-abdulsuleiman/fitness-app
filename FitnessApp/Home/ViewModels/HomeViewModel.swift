@@ -11,7 +11,6 @@ class HomeViewModel: ObservableObject {
     @State var calories: Int = 123
     @State var active: Int = 30
     @State var stand: Int = 8
-    
     var mockActivities = [
         Activity(id: 0, title: "Today Steps", subtitle: "Goal 10,000", image: "figure.walk", tintColor: .green, amount:"7,241" ),
          Activity(id: 1, title: "Today Steps", subtitle: "Goal 10,000", image: "figure.walk", tintColor: .yellow, amount:"1,821" ),
