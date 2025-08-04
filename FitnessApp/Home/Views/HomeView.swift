@@ -117,7 +117,6 @@ struct HomeView: View {
                             WorkoutCard(workout: workout)
                         }
                     }
-                    
                     .padding(.bottom)
                     
                 }
